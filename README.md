@@ -2,10 +2,12 @@
 
 [![Build Status](https://github.com/pioarduino/platform-espressif32/actions/workflows/examples.yml/badge.svg)](https://github.com/pioarduino/platform-espressif32/actions)
 [![Discord](https://img.shields.io/discord/1263397951829708871.svg?logo=discord&logoColor=white&color=5865F2&label=Discord)](https://discord.gg/Nutz9crnZr)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/pioarduino/platform-espressif32)
 [![GitHub Releases](https://img.shields.io/github/downloads/pioarduino/platform-espressif32/total?label=downloads)](https://github.com/pioarduino/platform-espressif32/releases/latest)
 
-ESP32 is a series of low-cost, low-power system on a chip microcontrollers with integrated Wi-Fi and Bluetooth. ESP32 integrates an antenna switch, RF balun, power amplifier, low-noise receive amplifier, filters, and power management modules.
+Espressif Systems is a privately held, fabless semiconductor company renowned for delivering cost-effective wireless communication microcontrollers. Their innovative solutions are widely adopted in mobile devices and Internet of Things (IoT) applications around the globe.
 
+## General
 * Issues with boards (wrong / missing). All issues caused from boards will not be fixed from the maintainer(s). A PR needs to be provided against branch `develop` to solve.
 * No support for the Arduino Nora Nano board, issues needs to be solved by the community
 ## IDE Preparation
@@ -15,12 +17,16 @@ ESP32 is a series of low-cost, low-power system on a chip microcontrollers with 
 - Search for the `pioarduino ide` extension.
 - Install pioarduino IDE extension.
 
-# Usage
+## Usage
 1. Setup new VSCode pioarduino project.
 1. Configure a platform option in platformio.ini file:
 
+## Documentation
+[pioarduino Wiki](https://deepwiki.com/pioarduino/platform-espressif32)
+The Wiki is AI generated and insane detailed and accurate.
+
 ### Stable Arduino
-currently espressif Arduino 3.2.0 and IDF 5.4.1
+currently espressif Arduino 3.3.0 and IDF 5.5.0
 
 ```ini
 [env:stable]
